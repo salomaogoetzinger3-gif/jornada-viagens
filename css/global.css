@@ -51,7 +51,7 @@ body {
 .section-title hr {
   width: 180px;
   height: 4px;
-  color: var(--button-secondary-color);
+  color: red;
   border: none;
   margin: 16px auto 32px;
 }

@@ -1,3 +1,7 @@
+.offers {
+  margin-bottom: 100px;
+}
+
 .offers-cards {
   display: flex;
   flex-direction: column;
@@ -63,6 +67,7 @@
 @media screen and (min-width: 768px) {
   .offers {
     text-align: center;
+    margin-bottom: 100px;
   }
   .offers-cards {
     display: inline-block;
