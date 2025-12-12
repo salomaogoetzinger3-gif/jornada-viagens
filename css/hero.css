@@ -35,11 +35,6 @@
     padding: 88px 120px;
   }
 }
-@media screen and (min-width: 1366px) {
-  .hero h2 {
-    padding: 88px 140px;
-  }
-}
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
