@@ -6,7 +6,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 24px;
+}
+
+.offers-align {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
 }
 
 .card {
@@ -19,7 +25,7 @@
   text-align: center;
 }
 
-.card header {
+.offers-cards .card header {
   display: block;
   background-color: transparent;
   position: static;
@@ -72,17 +78,11 @@
   .offers-cards {
     display: inline-block;
   }
-  .card.san-andreas {
-    margin-left: 24px;
-  }
-  .card.manaus {
-    margin-left: 24px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   .card {
-    width: 488px;
+    width: 588px;
     height: 308px;
     margin: 0 auto;
   }
@@ -95,23 +95,14 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
   .card {
-    width: 588px;
+    width: 580px;
   }
 }
-@media screen and (min-width: 1797px) {
+
+@media screen and (min-width: 2560px) {
   .card {
-    width: 788px;
-  }
-}
-@media screen and (min-width: 2397px) {
-  .card {
-    width: 888px;
-  }
-}
-@media screen and (min-width: 2697px) {
-  .card {
-    width: 890px;
+    width: 920px;
   }
 }

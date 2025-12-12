@@ -1,0 +1,102 @@
+.destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destinations .item header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.item {
+  margin-bottom: 24px;
+}
+
+.img-item.tokyo {
+  width: 312px;
+  height: 360px;
+  background: url("../img/tokyo-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.item header h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0;
+}
+
+.item p {
+  width: 312px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  margin-bottom: 24px;
+}
+
+.img-item.osaka {
+  width: 312px;
+  height: 360px;
+  background: url("../img/osaka-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.button {
+  width: 320px;
+  height: 64px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  background-color: var(--button-secondary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .img-item.tokyo {
+    width: 648px;
+    height: 452px;
+    background: url("../img/tokyo-tablet-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .item p {
+    width: 648px;
+  }
+
+  .img-item.osaka {
+    width: 648px;
+    height: 452px;
+    background: url("../img/osaka-tablet-desktop.jpg") no-repeat;
+  }
+
+  .button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destination-items {
+    display: flex;
+    gap: 24px;
+  }
+  .img-item.tokyo {
+    width: 588px;
+    height: 452px;
+  }
+
+  .item p {
+    width: 588px;
+  }
+
+  .img-item.osaka {
+    width: 588px;
+    height: 452px;
+  }
+}
