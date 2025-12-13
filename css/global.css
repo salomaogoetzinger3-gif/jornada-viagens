@@ -71,6 +71,18 @@ section.hero {
   margin: 16px auto 32px;
 }
 
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin-bottom: 24px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .offers-cards .button {
   width: 280px;
   height: 64px;
