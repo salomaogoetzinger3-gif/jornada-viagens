@@ -24,8 +24,6 @@
 .package {
   text-decoration: none;
   color: var(--background-tertiary-color);
-  font-size: 28px;
-  font-weight: var(--title-weight);
 }
 
 @media screen and (min-width: 768px) {
