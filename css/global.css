@@ -66,7 +66,7 @@ section.hero {
 .section-title hr {
   width: 180px;
   height: 4px;
-  color: red;
+  background-color: var(--button-secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
