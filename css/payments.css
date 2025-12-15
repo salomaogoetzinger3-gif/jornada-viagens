@@ -14,18 +14,22 @@
   grid-column: span 2;
 }
 
+.content-title0 {
+  font-size: 40px;
+}
+
 .payments .payments-aligh .image.bag {
-  background: url("../img/payments-1-mobile.jpg") no-repeat;
+  background: url("../img/payments-1-mobile.png") no-repeat;
   background-size: cover;
 }
 
 .payments .payments-aligh .image.passport {
-  background: url("../img/payments-2-mobile.jpg") no-repeat;
+  background: url("../img/payments-2-mobile.png") no-repeat;
   background-size: cover;
 }
 
 .payments .payments-aligh .image.people {
-  background: url("../img/payments-3-mobile.jpg") no-repeat;
+  background: url("../img/payments-3-mobile.png") no-repeat;
   background-size: cover;
 }
 
