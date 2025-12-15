@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.destinations .section-title {
+  padding-top: 88px;
+}
+
 .destinations .item header {
   display: block;
   background-color: transparent;

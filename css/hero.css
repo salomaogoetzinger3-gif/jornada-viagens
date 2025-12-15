@@ -1,23 +1,58 @@
-.hero-img {
-  height: 400px;
+.hero .hero-img {
+  height: 460px;
   width: 100%;
-  background: url(../img/banner-homepage-mobile.jpg) no-repeat;
+  background: url(../img/banner-homepage.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
-.hero h2 {
-  padding: 88px 24px;
+.hero-img .section-title {
   margin: 0;
-  font-weight: var(--text-weight);
-  font-size: 20px;
-  text-align: center;
-  line-height: 32px;
+}
+
+.hero-img .section-title h1 {
+  width: 320px;
+  margin: 0;
+  padding: 65px 24px 0;
+  color: var(--background-primary-color);
+  font-weight: var(--title-weight);
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.hero-img .section-title hr {
+  margin: 16px 24px 32px;
+}
+
+.hero-img .section-title .content-text {
+  width: 320px;
+  color: var(--text-secondary-color);
+  margin: 0 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero-img .section-title {
+    padding-top: 30px;
+    width: 512px;
+    margin: 0 auto;
+  }
+
+  .hero-img .section-title h1 {
+    width: 100%;
+  }
+
+  .hero-img .section-title .content-text {
+    font-size: 32px;
+    line-height: 150%;
+    width: 100%;
+  }
+
+  .hero-img .section-title {
+    margin: 0 auto;
+  }
+
+  .hero .hero-img {
     height: 620px;
-    background: url(../img/banner-homepage-tablet.jpg) no-repeat;
     background-size: cover;
   }
   .hero h2 {
@@ -27,8 +62,14 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
-    background: url(../img/banner-homepage-desktop.jpg) no-repeat;
+  .hero-img .section-title {
+    padding-top: 30px;
+    width: 512px;
+    margin: 0 120px;
+  }
+
+  .hero .hero-img {
+    height: 620px;
     background-size: cover;
   }
   .hero h2 {
